@@ -1,0 +1,23 @@
+body {
+    background-color: #D1D1D1;
+    color: black;
+}
+#logo {
+    height: 150px;
+    margin-top: -20px;
+}
+#title {
+    
+}
+p {
+    margin-top: -5px;
+}
+/* UI for Tablet */
+@media screen and (max-width: 900px){
+    #logo {
+        height: 140px;
+    }
+    #title {
+        text-align: center;
+    }
+}
