@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Image */
+
+.mainImage {
+   height: 20vh;
+   width: 97.96vw;
+   object-fit: cover;
+   padding: 10px;
+}
+/* Main Image END */
