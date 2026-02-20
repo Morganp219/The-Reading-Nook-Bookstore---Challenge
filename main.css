@@ -1,24 +1,23 @@
 #image-1 {
-  width: 320px;
   margin: 5px auto;
 }
 
 #image-1 img {
   width: 100%;
+  height: 400px;
   display: block;
-  margin: 0 auto;
 }
 
 /* Tablets */
-@media (max-width: 1024px) {
-  #image-1 {
+@media (min-width: 600px) {
+  #imageBox {
     width: 220px;
   }
 }
 
 /* Laptops / desktops */
 @media (min-width: 1024px) {
-  #image-1 {
+  #imageBox {
     width: 320px;
   }
 }
