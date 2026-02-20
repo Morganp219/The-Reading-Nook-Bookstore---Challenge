@@ -1,0 +1,10 @@
+#navBar{
+    position: absolute;
+    top: 2vh;
+    right: 3vw;
+    display: flex;
+    gap: 9px;
+}
+#navBar a {
+    text-decoration: none;
+}
