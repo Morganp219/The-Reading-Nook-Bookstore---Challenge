@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Image */
+
+.mainImage {
+   height: 20vh;
+   width: 97.96vw;
+   object-fit: cover;
+   padding: 10px;
+}
+/* Main Image END */
+
+/* Body paragraph and image */
+.bodyTextImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.bodyImage {
+    height: 20vh;
+    width: 40vw;
+    object-fit: cover;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Body paragraph and image END */
+
+/* Stats */
+    
+.Books {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(189, 186, 186);
+    font-size: 29px;
+}
+
+.Books p {
+    margin: 5px;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.Stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Stats END */
